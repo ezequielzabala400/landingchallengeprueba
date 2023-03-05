@@ -99,6 +99,7 @@ main{
     display: flex;
     justify-content: center;
     background-image: url(../images/mobile/image-hero.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 

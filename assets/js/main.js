@@ -7,3 +7,10 @@ toggleMenu.addEventListener('click', (() => {
     else toggleMenu.setAttribute('src', './assets/images/icon-hamburger.svg')
     
 }))
+
+window.addEventListener('scroll', (() => {
+    if(navbar.classList.contains('show')){
+        navbar.classList.remove('show')
+        toggleMenu.setAttribute('src', './assets/images/icon-hamburger.svg')
+    }
+}))
